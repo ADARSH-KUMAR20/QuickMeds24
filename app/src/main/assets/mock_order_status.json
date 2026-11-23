@@ -1,0 +1,97 @@
+{
+  "order_id": "QM-8847",
+  "user_phone": "+91 98765 43210",
+  "created_at": "2026-11-23T22:30:00Z",
+  "total_amount": 302.0,
+  "items_total": 272.0,
+  "rider_pay": 30.0,
+  "delivery_fee": 0.0,
+  "payment_method": "UPI_GPAY",
+  "payment_status": "PAID",
+  "current_stage": "STORE_ACCEPTED",
+  "push_notifications_sent": [
+    {
+      "trigger": "ORDER_PICKED",
+      "title": "Order Picked Up! 🛵",
+      "body": "Rider Rohit collected your medicines from Wellness Forever Alpha 2. On the way to Flat 402, Alpha 1!"
+    },
+    {
+      "trigger": "DRIVER_ARRIVED",
+      "title": "Driver Arrived! 📍",
+      "body": "Rider Rohit has arrived outside Flat 402, Tower B, Alpha 1. Please share Delivery OTP: 4821 with rider."
+    }
+  ],
+  "stages_timeline": [
+    {
+      "stage": "BROADCASTING",
+      "label": "Broadcasting request to candidate pharmacies with verified stock...",
+      "status": "COMPLETED",
+      "elapsed_sec": 3,
+      "timestamp": "2026-11-23T22:30:03Z"
+    },
+    {
+      "stage": "STORE_ACCEPTED",
+      "label": "Alpha 1 out-of-stock check completed. Wellness Forever Alpha 2 accepted your order!",
+      "status": "IN_PROGRESS",
+      "elapsed_sec": 5,
+      "timestamp": "2026-11-23T22:30:06Z"
+    },
+    {
+      "stage": "RIDER_ASSIGNED",
+      "label": "Rohit Kumar (UP 16 BY 4821) allocated for pickup in Alpha 2",
+      "status": "PENDING",
+      "elapsed_sec": 7,
+      "timestamp": null
+    },
+    {
+      "stage": "RIDER_PICKING",
+      "label": "Rider reaching Wellness Forever Alpha 2 to collect packet",
+      "status": "PENDING",
+      "elapsed_sec": 10,
+      "timestamp": null
+    },
+    {
+      "stage": "OUT_FOR_DELIVERY",
+      "label": "Out for lightning delivery from Alpha 2 to Flat 402, Alpha 1",
+      "status": "PENDING",
+      "elapsed_sec": 15,
+      "timestamp": null
+    },
+    {
+      "stage": "DELIVERED",
+      "label": "Medicines safely delivered at doorstep (OTP 4821 verified)",
+      "status": "PENDING",
+      "elapsed_sec": 20,
+      "timestamp": null
+    }
+  ],
+  "candidate_pharmacies": [
+    {
+      "pharmacy_id": "pharm-alpha2-wellness",
+      "name": "Wellness Forever Alpha 2",
+      "sector": "Alpha 2",
+      "distance_km": 1.8,
+      "status": "ACCEPTED",
+      "stock_status": "IN_STOCK",
+      "response_time_ms": 1420
+    },
+    {
+      "pharmacy_id": "pharm-alpha1-sharma",
+      "name": "Sharma Medical Store",
+      "sector": "Alpha 1",
+      "distance_km": 0.7,
+      "status": "OUT_OF_STOCK",
+      "stock_status": "EXHAUSTED",
+      "response_time_ms": 1890
+    },
+    {
+      "pharmacy_id": "pharm-alpha1-apollo",
+      "name": "Apollo Pharmacy Alpha 1",
+      "sector": "Alpha 1",
+      "distance_km": 1.1,
+      "status": "OUT_OF_STOCK",
+      "stock_status": "EXHAUSTED",
+      "response_time_ms": 2100
+    }
+  ]
+}

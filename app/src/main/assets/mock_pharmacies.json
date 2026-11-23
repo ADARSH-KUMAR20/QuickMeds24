@@ -1,0 +1,855 @@
+{
+  "total_pharmacies": 50,
+  "pharmacies": [
+    {
+      "id": "pharm-alpha1-sharma",
+      "name": "Sharma Medical Store",
+      "branch": "Commercial Belt, Alpha 1",
+      "address": "Shop 14, Commercial Belt, Near Metro Station, Alpha 1, Greater Noida - 201310",
+      "rating": 4.8,
+      "reviews_count": 428,
+      "distance_km": 0.7,
+      "estimated_delivery_minutes": 15,
+      "is_open": true,
+      "license_no": "UP-GN-2023-A1-0482",
+      "coordinates": {
+        "latitude": 28.4738,
+        "longitude": 77.5092
+      },
+      "medicines_count": 520
+    },
+    {
+      "id": "pharm-alpha1-apollo",
+      "name": "Apollo Pharmacy Alpha 1",
+      "branch": "Pocket A Complex, Alpha 1",
+      "address": "Plot 8, Pocket A, Commercial Complex, Sector Alpha 1, Greater Noida - 201310",
+      "rating": 4.7,
+      "reviews_count": 312,
+      "distance_km": 1.1,
+      "estimated_delivery_minutes": 18,
+      "is_open": true,
+      "license_no": "UP-GN-2022-A1-1029",
+      "coordinates": {
+        "latitude": 28.475,
+        "longitude": 77.511
+      },
+      "medicines_count": 510
+    },
+    {
+      "id": "pharm-alpha1-medplus",
+      "name": "MedPlus Alpha 1",
+      "branch": "Metro Station Road, Alpha 1",
+      "address": "Shop 3, Ground Floor, Metro Arcade, Sector Alpha 1, Greater Noida - 201310",
+      "rating": 4.6,
+      "reviews_count": 275,
+      "distance_km": 1.4,
+      "estimated_delivery_minutes": 20,
+      "is_open": true,
+      "license_no": "UP-GN-2024-A1-3391",
+      "coordinates": {
+        "latitude": 28.4722,
+        "longitude": 77.5075
+      },
+      "medicines_count": 505
+    },
+    {
+      "id": "pharm-alpha2-wellness",
+      "name": "Wellness Forever Alpha 2",
+      "branch": "Main Sector Market, Alpha 2",
+      "address": "Shop 8, Main Sector Market, Near Community Center, Alpha 2, Greater Noida - 201310",
+      "rating": 4.9,
+      "reviews_count": 512,
+      "distance_km": 1.8,
+      "estimated_delivery_minutes": 22,
+      "is_open": true,
+      "license_no": "UP-GN-2023-A2-9901",
+      "coordinates": {
+        "latitude": 28.4775,
+        "longitude": 77.5145
+      },
+      "medicines_count": 530
+    },
+    {
+      "id": "pharm-alpha2-sanjeevani",
+      "name": "Sanjeevani Chemist Alpha 2",
+      "branch": "Pocket F Complex, Alpha 2",
+      "address": "G-24, Shopping Complex, Pocket F, Alpha 2, Greater Noida - 201310",
+      "rating": 4.5,
+      "reviews_count": 198,
+      "distance_km": 2.2,
+      "estimated_delivery_minutes": 25,
+      "is_open": true,
+      "license_no": "UP-GN-2021-A2-5402",
+      "coordinates": {
+        "latitude": 28.479,
+        "longitude": 77.516
+      },
+      "medicines_count": 515
+    },
+    {
+      "id": "pharm-ext-6",
+      "name": "Noble Plus Chemist Beta 1",
+      "branch": "Beta 1 Branch",
+      "address": "Shop 10, Beta Plaza Commercial Complex, Sector Beta 1, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 216,
+      "distance_km": 3.6,
+      "estimated_delivery_minutes": 39,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0006",
+      "coordinates": {
+        "latitude": 28.48,
+        "longitude": 77.5
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-7",
+      "name": "Max Healthcare Chemist Beta 1",
+      "branch": "Beta 1 Branch",
+      "address": "Shop 11, Beta Plaza Commercial Complex, Sector Beta 1, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 250,
+      "distance_km": 3.8,
+      "estimated_delivery_minutes": 40,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0007",
+      "coordinates": {
+        "latitude": 28.482,
+        "longitude": 77.502
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-8",
+      "name": "LifeCare Chemist Beta 1",
+      "branch": "Beta 1 Branch",
+      "address": "Shop 12, Beta Plaza Commercial Complex, Sector Beta 1, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 311,
+      "distance_km": 3.9,
+      "estimated_delivery_minutes": 40,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0008",
+      "coordinates": {
+        "latitude": 28.484,
+        "longitude": 77.504
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-9",
+      "name": "Relief Drug Store Beta 2",
+      "branch": "Beta 2 Branch",
+      "address": "Shop 10, Main Market, Pocket B, Sector Beta 2, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 319,
+      "distance_km": 4.1,
+      "estimated_delivery_minutes": 41,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0009",
+      "coordinates": {
+        "latitude": 28.4825,
+        "longitude": 77.5025
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-10",
+      "name": "Jan Aushadhi Kendra Beta 2",
+      "branch": "Beta 2 Branch",
+      "address": "Shop 11, Main Market, Pocket B, Sector Beta 2, Greater Noida",
+      "rating": 4.6,
+      "reviews_count": 448,
+      "distance_km": 4.3,
+      "estimated_delivery_minutes": 42,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0010",
+      "coordinates": {
+        "latitude": 28.4845,
+        "longitude": 77.5045
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-11",
+      "name": "SuperCare Pharmacy Beta 2",
+      "branch": "Beta 2 Branch",
+      "address": "Shop 12, Main Market, Pocket B, Sector Beta 2, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 435,
+      "distance_km": 4.5,
+      "estimated_delivery_minutes": 43,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0011",
+      "coordinates": {
+        "latitude": 28.4865,
+        "longitude": 77.5065
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-12",
+      "name": "City Meds 24x7 Gamma 1",
+      "branch": "Gamma 1 Branch",
+      "address": "Shop 10, Community Center Market, Sector Gamma 1, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 347,
+      "distance_km": 4.7,
+      "estimated_delivery_minutes": 43,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0012",
+      "coordinates": {
+        "latitude": 28.484,
+        "longitude": 77.506
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-13",
+      "name": "Healers Pharmacy Gamma 1",
+      "branch": "Gamma 1 Branch",
+      "address": "Shop 11, Community Center Market, Sector Gamma 1, Greater Noida",
+      "rating": 4.6,
+      "reviews_count": 200,
+      "distance_km": 4.8,
+      "estimated_delivery_minutes": 44,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0013",
+      "coordinates": {
+        "latitude": 28.486,
+        "longitude": 77.508
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-14",
+      "name": "MedPlus Pharmacy Gamma 1",
+      "branch": "Gamma 1 Branch",
+      "address": "Shop 12, Community Center Market, Sector Gamma 1, Greater Noida",
+      "rating": 4.6,
+      "reviews_count": 157,
+      "distance_km": 5.0,
+      "estimated_delivery_minutes": 45,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0014",
+      "coordinates": {
+        "latitude": 28.488,
+        "longitude": 77.51
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-15",
+      "name": "Apollo Pharmacy Gamma 2",
+      "branch": "Gamma 2 Branch",
+      "address": "Shop 10, Ryan Circle Plaza, Sector Gamma 2, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 203,
+      "distance_km": 5.2,
+      "estimated_delivery_minutes": 45,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0015",
+      "coordinates": {
+        "latitude": 28.486,
+        "longitude": 77.508
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-16",
+      "name": "Wellness Forever Gamma 2",
+      "branch": "Gamma 2 Branch",
+      "address": "Shop 11, Ryan Circle Plaza, Sector Gamma 2, Greater Noida",
+      "rating": 4.5,
+      "reviews_count": 264,
+      "distance_km": 5.4,
+      "estimated_delivery_minutes": 46,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0016",
+      "coordinates": {
+        "latitude": 28.488,
+        "longitude": 77.51
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-17",
+      "name": "Netmeds Store Gamma 2",
+      "branch": "Gamma 2 Branch",
+      "address": "Shop 12, Ryan Circle Plaza, Sector Gamma 2, Greater Noida",
+      "rating": 4.6,
+      "reviews_count": 100,
+      "distance_km": 5.6,
+      "estimated_delivery_minutes": 47,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0017",
+      "coordinates": {
+        "latitude": 28.49,
+        "longitude": 77.512
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-18",
+      "name": "Frank Ross Pharmacy Delta 1",
+      "branch": "Delta 1 Branch",
+      "address": "Shop 10, Near Delta Metro Station, Sector Delta 1, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 125,
+      "distance_km": 5.7,
+      "estimated_delivery_minutes": 47,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0018",
+      "coordinates": {
+        "latitude": 28.488,
+        "longitude": 77.511
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-19",
+      "name": "Guardian Pharmacy Delta 1",
+      "branch": "Delta 1 Branch",
+      "address": "Shop 11, Near Delta Metro Station, Sector Delta 1, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 122,
+      "distance_km": 5.9,
+      "estimated_delivery_minutes": 48,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0019",
+      "coordinates": {
+        "latitude": 28.49,
+        "longitude": 77.513
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-20",
+      "name": "Fortis Healthworld Delta 1",
+      "branch": "Delta 1 Branch",
+      "address": "Shop 12, Near Delta Metro Station, Sector Delta 1, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 249,
+      "distance_km": 6.1,
+      "estimated_delivery_minutes": 49,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0020",
+      "coordinates": {
+        "latitude": 28.492,
+        "longitude": 77.515
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-21",
+      "name": "Noble Plus Chemist Delta 2",
+      "branch": "Delta 2 Branch",
+      "address": "Shop 10, Shopping Arcade, Pocket E, Sector Delta 2, Greater Noida",
+      "rating": 4.2,
+      "reviews_count": 230,
+      "distance_km": 6.3,
+      "estimated_delivery_minutes": 50,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0021",
+      "coordinates": {
+        "latitude": 28.49,
+        "longitude": 77.514
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-22",
+      "name": "Max Healthcare Chemist Delta 2",
+      "branch": "Delta 2 Branch",
+      "address": "Shop 11, Shopping Arcade, Pocket E, Sector Delta 2, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 110,
+      "distance_km": 6.5,
+      "estimated_delivery_minutes": 51,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0022",
+      "coordinates": {
+        "latitude": 28.492,
+        "longitude": 77.516
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-23",
+      "name": "LifeCare Chemist Delta 2",
+      "branch": "Delta 2 Branch",
+      "address": "Shop 12, Shopping Arcade, Pocket E, Sector Delta 2, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 409,
+      "distance_km": 6.6,
+      "estimated_delivery_minutes": 51,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0023",
+      "coordinates": {
+        "latitude": 28.494,
+        "longitude": 77.518
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-24",
+      "name": "Relief Drug Store Pari Chowk",
+      "branch": "Pari Chowk Branch",
+      "address": "Shop 10, Ansal Plaza Mall, Pari Chowk, Greater Noida, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 332,
+      "distance_km": 6.8,
+      "estimated_delivery_minutes": 52,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0024",
+      "coordinates": {
+        "latitude": 28.466,
+        "longitude": 77.513
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-25",
+      "name": "Jan Aushadhi Kendra Pari Chowk",
+      "branch": "Pari Chowk Branch",
+      "address": "Shop 11, Ansal Plaza Mall, Pari Chowk, Greater Noida, Greater Noida",
+      "rating": 4.2,
+      "reviews_count": 192,
+      "distance_km": 7.0,
+      "estimated_delivery_minutes": 53,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0025",
+      "coordinates": {
+        "latitude": 28.468,
+        "longitude": 77.515
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-26",
+      "name": "SuperCare Pharmacy Pari Chowk",
+      "branch": "Pari Chowk Branch",
+      "address": "Shop 12, Ansal Plaza Mall, Pari Chowk, Greater Noida, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 304,
+      "distance_km": 7.2,
+      "estimated_delivery_minutes": 53,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0026",
+      "coordinates": {
+        "latitude": 28.47,
+        "longitude": 77.517
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-27",
+      "name": "City Meds 24x7 Omega 1",
+      "branch": "Omega 1 Branch",
+      "address": "Shop 10, NRI City Arcade, Sector Omega 1, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 199,
+      "distance_km": 7.4,
+      "estimated_delivery_minutes": 54,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0027",
+      "coordinates": {
+        "latitude": 28.46,
+        "longitude": 77.518
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-28",
+      "name": "Healers Pharmacy Omega 1",
+      "branch": "Omega 1 Branch",
+      "address": "Shop 11, NRI City Arcade, Sector Omega 1, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 426,
+      "distance_km": 7.5,
+      "estimated_delivery_minutes": 55,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0028",
+      "coordinates": {
+        "latitude": 28.462,
+        "longitude": 77.52
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-29",
+      "name": "MedPlus Pharmacy Omega 1",
+      "branch": "Omega 1 Branch",
+      "address": "Shop 12, NRI City Arcade, Sector Omega 1, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 103,
+      "distance_km": 7.7,
+      "estimated_delivery_minutes": 55,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0029",
+      "coordinates": {
+        "latitude": 28.464,
+        "longitude": 77.522
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-30",
+      "name": "Apollo Pharmacy Chi 1",
+      "branch": "Chi 1 Branch",
+      "address": "Shop 10, Expressway Hub, Sector Chi 1, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 420,
+      "distance_km": 7.9,
+      "estimated_delivery_minutes": 56,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0030",
+      "coordinates": {
+        "latitude": 28.456,
+        "longitude": 77.523
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-31",
+      "name": "Wellness Forever Chi 1",
+      "branch": "Chi 1 Branch",
+      "address": "Shop 11, Expressway Hub, Sector Chi 1, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 151,
+      "distance_km": 8.1,
+      "estimated_delivery_minutes": 57,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0031",
+      "coordinates": {
+        "latitude": 28.458,
+        "longitude": 77.525
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-32",
+      "name": "Netmeds Store Chi 1",
+      "branch": "Chi 1 Branch",
+      "address": "Shop 12, Expressway Hub, Sector Chi 1, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 380,
+      "distance_km": 8.3,
+      "estimated_delivery_minutes": 58,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0032",
+      "coordinates": {
+        "latitude": 28.46,
+        "longitude": 77.527
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-33",
+      "name": "Frank Ross Pharmacy Knowledge Park 2",
+      "branch": "Knowledge Park 2 Branch",
+      "address": "Shop 10, Student Junction, Knowledge Park 2, Greater Noida",
+      "rating": 4.7,
+      "reviews_count": 346,
+      "distance_km": 8.4,
+      "estimated_delivery_minutes": 58,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0033",
+      "coordinates": {
+        "latitude": 28.463,
+        "longitude": 77.493
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-34",
+      "name": "Guardian Pharmacy Knowledge Park 2",
+      "branch": "Knowledge Park 2 Branch",
+      "address": "Shop 11, Student Junction, Knowledge Park 2, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 403,
+      "distance_km": 8.6,
+      "estimated_delivery_minutes": 59,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0034",
+      "coordinates": {
+        "latitude": 28.465,
+        "longitude": 77.495
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-35",
+      "name": "Fortis Healthworld Knowledge Park 2",
+      "branch": "Knowledge Park 2 Branch",
+      "address": "Shop 12, Student Junction, Knowledge Park 2, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 399,
+      "distance_km": 8.8,
+      "estimated_delivery_minutes": 60,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0035",
+      "coordinates": {
+        "latitude": 28.467,
+        "longitude": 77.497
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-36",
+      "name": "Noble Plus Chemist Knowledge Park 3",
+      "branch": "Knowledge Park 3 Branch",
+      "address": "Shop 10, University Commercial Plaza, KP 3, Greater Noida",
+      "rating": 4.5,
+      "reviews_count": 405,
+      "distance_km": 9.0,
+      "estimated_delivery_minutes": 61,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0036",
+      "coordinates": {
+        "latitude": 28.468,
+        "longitude": 77.488
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-37",
+      "name": "Max Healthcare Chemist Knowledge Park 3",
+      "branch": "Knowledge Park 3 Branch",
+      "address": "Shop 11, University Commercial Plaza, KP 3, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 409,
+      "distance_km": 9.2,
+      "estimated_delivery_minutes": 61,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0037",
+      "coordinates": {
+        "latitude": 28.47,
+        "longitude": 77.49
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-38",
+      "name": "LifeCare Chemist Knowledge Park 3",
+      "branch": "Knowledge Park 3 Branch",
+      "address": "Shop 12, University Commercial Plaza, KP 3, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 384,
+      "distance_km": 9.3,
+      "estimated_delivery_minutes": 62,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0038",
+      "coordinates": {
+        "latitude": 28.472,
+        "longitude": 77.492
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-39",
+      "name": "Relief Drug Store Kasna",
+      "branch": "Kasna Branch",
+      "address": "Shop 10, Main Kasna Bazaar, Near Bus Stand, Greater Noida",
+      "rating": 4.7,
+      "reviews_count": 388,
+      "distance_km": 9.5,
+      "estimated_delivery_minutes": 63,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0039",
+      "coordinates": {
+        "latitude": 28.448,
+        "longitude": 77.528
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-40",
+      "name": "Jan Aushadhi Kendra Kasna",
+      "branch": "Kasna Branch",
+      "address": "Shop 11, Main Kasna Bazaar, Near Bus Stand, Greater Noida",
+      "rating": 4.7,
+      "reviews_count": 256,
+      "distance_km": 9.7,
+      "estimated_delivery_minutes": 63,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0040",
+      "coordinates": {
+        "latitude": 28.45,
+        "longitude": 77.53
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-41",
+      "name": "SuperCare Pharmacy Kasna",
+      "branch": "Kasna Branch",
+      "address": "Shop 12, Main Kasna Bazaar, Near Bus Stand, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 437,
+      "distance_km": 9.9,
+      "estimated_delivery_minutes": 64,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0041",
+      "coordinates": {
+        "latitude": 28.452,
+        "longitude": 77.532
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-42",
+      "name": "City Meds 24x7 Surajpur",
+      "branch": "Surajpur Branch",
+      "address": "Shop 10, Collectorate Road Market, Surajpur, Greater Noida",
+      "rating": 4.5,
+      "reviews_count": 401,
+      "distance_km": 10.1,
+      "estimated_delivery_minutes": 65,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0042",
+      "coordinates": {
+        "latitude": 28.508,
+        "longitude": 77.478
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-43",
+      "name": "Healers Pharmacy Surajpur",
+      "branch": "Surajpur Branch",
+      "address": "Shop 11, Collectorate Road Market, Surajpur, Greater Noida",
+      "rating": 4.3,
+      "reviews_count": 142,
+      "distance_km": 10.2,
+      "estimated_delivery_minutes": 65,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0043",
+      "coordinates": {
+        "latitude": 28.51,
+        "longitude": 77.48
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-44",
+      "name": "MedPlus Pharmacy Surajpur",
+      "branch": "Surajpur Branch",
+      "address": "Shop 12, Collectorate Road Market, Surajpur, Greater Noida",
+      "rating": 4.5,
+      "reviews_count": 312,
+      "distance_km": 10.4,
+      "estimated_delivery_minutes": 66,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0044",
+      "coordinates": {
+        "latitude": 28.512,
+        "longitude": 77.482
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-45",
+      "name": "Apollo Pharmacy Sector 70",
+      "branch": "Sector 70 Branch",
+      "address": "Shop 10, Cleo County Arcade, Sector 70, Noida, Greater Noida",
+      "rating": 4.5,
+      "reviews_count": 119,
+      "distance_km": 10.6,
+      "estimated_delivery_minutes": 67,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0045",
+      "coordinates": {
+        "latitude": 28.588,
+        "longitude": 77.378
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-46",
+      "name": "Wellness Forever Sector 70",
+      "branch": "Sector 70 Branch",
+      "address": "Shop 11, Cleo County Arcade, Sector 70, Noida, Greater Noida",
+      "rating": 4.2,
+      "reviews_count": 92,
+      "distance_km": 10.8,
+      "estimated_delivery_minutes": 68,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0046",
+      "coordinates": {
+        "latitude": 28.59,
+        "longitude": 77.38
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-47",
+      "name": "Netmeds Store Sector 70",
+      "branch": "Sector 70 Branch",
+      "address": "Shop 12, Cleo County Arcade, Sector 70, Noida, Greater Noida",
+      "rating": 4.9,
+      "reviews_count": 247,
+      "distance_km": 11.0,
+      "estimated_delivery_minutes": 69,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0047",
+      "coordinates": {
+        "latitude": 28.592,
+        "longitude": 77.382
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-48",
+      "name": "Frank Ross Pharmacy Sector 137",
+      "branch": "Sector 137 Branch",
+      "address": "Shop 10, Paras Tierea Complex, Sector 137, Noida, Greater Noida",
+      "rating": 4.8,
+      "reviews_count": 345,
+      "distance_km": 11.1,
+      "estimated_delivery_minutes": 69,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0048",
+      "coordinates": {
+        "latitude": 28.503,
+        "longitude": 77.403
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-49",
+      "name": "Guardian Pharmacy Sector 137",
+      "branch": "Sector 137 Branch",
+      "address": "Shop 11, Paras Tierea Complex, Sector 137, Noida, Greater Noida",
+      "rating": 4.4,
+      "reviews_count": 264,
+      "distance_km": 11.3,
+      "estimated_delivery_minutes": 70,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0049",
+      "coordinates": {
+        "latitude": 28.505,
+        "longitude": 77.405
+      },
+      "medicines_count": 500
+    },
+    {
+      "id": "pharm-ext-50",
+      "name": "Fortis Healthworld Sector 137",
+      "branch": "Sector 137 Branch",
+      "address": "Shop 12, Paras Tierea Complex, Sector 137, Noida, Greater Noida",
+      "rating": 4.7,
+      "reviews_count": 251,
+      "distance_km": 11.5,
+      "estimated_delivery_minutes": 71,
+      "is_open": true,
+      "license_no": "UP-GN-2023-EXT-0050",
+      "coordinates": {
+        "latitude": 28.507,
+        "longitude": 77.407
+      },
+      "medicines_count": 500
+    }
+  ]
+}

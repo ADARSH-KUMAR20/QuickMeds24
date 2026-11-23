@@ -1,0 +1,36 @@
+{
+  "user_id": "usr-88912",
+  "phone": "+91 98765 43210",
+  "name": "Adarsh Kumar",
+  "default_address_id": "loc-alpha-1",
+  "addresses": [
+    {
+      "id": "loc-alpha-1",
+      "area": "Alpha 1",
+      "landmark": "Commercial Belt & Metro Station",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201310",
+      "full_address": "Flat 402, Tower B, Golf Vista, Alpha 1, Greater Noida - 201310",
+      "coordinates": {
+        "latitude": 28.4735,
+        "longitude": 77.5098
+      }
+    },
+    {
+      "id": "loc-alpha-2",
+      "area": "Alpha 2",
+      "landmark": "Main Sector Market",
+      "city": "Greater Noida",
+      "state": "Uttar Pradesh",
+      "pincode": "201310",
+      "full_address": "House 128, Pocket F, Alpha 2, Greater Noida - 201310",
+      "coordinates": {
+        "latitude": 28.477,
+        "longitude": 77.514
+      }
+    }
+  ],
+  "active_order_id": "QM-8847",
+  "preferred_payment_method": "UPI_GPAY"
+}

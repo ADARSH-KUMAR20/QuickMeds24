@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- 4-Lobed Cloud Cross / Clover in Vibrant QwikMeds Electric Blue -->
+    <!-- Top Circular Lobe -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 60,12 A 25,25 0 1,1 59.9,12 Z" />
+
+    <!-- Bottom Circular Lobe -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 60,60 A 25,25 0 1,1 59.9,60 Z" />
+
+    <!-- Left Circular Lobe -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 36,36 A 25,25 0 1,1 35.9,36 Z" />
+
+    <!-- Right Circular Lobe -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 84,36 A 25,25 0 1,1 83.9,36 Z" />
+
+    <!-- Smooth Center Body Fill -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 40,40 L 80,40 L 80,80 L 40,80 Z" />
+
+    <!-- Soft Inner Corner Fill (Smooth Clover Bridges) -->
+    <path
+        android:fillColor="#0066FF"
+        android:pathData="M 60,31 A 29,29 0 1,1 59.9,31 Z" />
+
+    <!-- Pure White Medical Cross (+) with Rounded Ends in the Center -->
+    <!-- Horizontal Cross Bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 39,52 L 81,52 A 8,8 0 0,1 89,60 A 8,8 0 0,1 81,68 L 39,68 A 8,8 0 0,1 31,60 A 8,8 0 0,1 39,52 Z" />
+
+    <!-- Vertical Cross Bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 52,39 L 68,39 A 8,8 0 0,1 76,47 L 76,73 A 8,8 0 0,1 68,81 L 52,81 A 8,8 0 0,1 44,73 L 44,47 A 8,8 0 0,1 52,39 Z" />
+
+</vector>

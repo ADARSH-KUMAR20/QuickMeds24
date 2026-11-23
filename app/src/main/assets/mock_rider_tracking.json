@@ -1,0 +1,80 @@
+{
+  "order_id": "QM-8847",
+  "status": "ON_THE_WAY",
+  "status_step_index": 2,
+  "status_description": "Medicines verified & picked up from Alpha 2! Share OTP: 4821",
+  "is_medicine_picked_up": true,
+  "picked_up_time": "11:28 AM",
+  "delivery_otp": "4821",
+  "eta_minutes": 6,
+  "speed_kmh": 34,
+  "distance_remaining_km": 1.1,
+  "last_updated_timestamp": 1732381200000,
+  "update_frequency_seconds": 1,
+  "is_continuous_active": true,
+  "rider": {
+    "id": "rider-rohit-07",
+    "name": "Rohit Kumar",
+    "phone": "+91 98765 12049",
+    "rating": 4.9,
+    "vehicle_number": "UP 16 BY 4821",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"
+  },
+  "targeted_pharmacy": {
+    "id": "pharm-alpha2-wellness",
+    "name": "Wellness Forever Alpha 2",
+    "branch": "Main Sector Market, Alpha 2",
+    "distance_km": 1.8,
+    "address": "Shop 8, Main Sector Market, Alpha 2, Greater Noida - 201310",
+    "coordinates": {
+      "latitude": 28.4775,
+      "longitude": 77.5145
+    }
+  },
+  "destination": {
+    "area": "Alpha 1",
+    "full_address": "Flat 402, Tower B, Golf Vista, Alpha 1, Greater Noida - 201310",
+    "coordinates": {
+      "latitude": 28.4735,
+      "longitude": 77.5098
+    }
+  },
+  "current_location": {
+    "latitude": 28.4760,
+    "longitude": 77.5126
+  },
+  "notifications": [
+    {
+      "type": "ORDER_PICKED",
+      "title": "Order Picked Up! 🛵",
+      "message": "Rider Rohit collected your medicines from Wellness Forever Alpha 2. On the way to Flat 402, Alpha 1!"
+    },
+    {
+      "type": "DRIVER_ARRIVED",
+      "title": "Driver Arrived! 📍",
+      "message": "Rider Rohit has arrived outside Flat 402, Tower B, Alpha 1. Please share Delivery OTP: 4821 with rider."
+    }
+  ],
+  "waypoints": [
+    { "latitude": 28.4830, "longitude": 77.5190, "stage": "RIDER_ASSIGNED", "eta_minutes": 12, "distance_km": 2.4, "speed_kmh": 30, "picked_up": false },
+    { "latitude": 28.4824, "longitude": 77.5185, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 11, "distance_km": 2.3, "speed_kmh": 32, "picked_up": false },
+    { "latitude": 28.4818, "longitude": 77.5180, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 11, "distance_km": 2.2, "speed_kmh": 34, "picked_up": false },
+    { "latitude": 28.4812, "longitude": 77.5174, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 10, "distance_km": 2.0, "speed_kmh": 31, "picked_up": false },
+    { "latitude": 28.4805, "longitude": 77.5168, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 10, "distance_km": 1.9, "speed_kmh": 28, "picked_up": false },
+    { "latitude": 28.4798, "longitude": 77.5162, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 9, "distance_km": 1.8, "speed_kmh": 25, "picked_up": false },
+    { "latitude": 28.4790, "longitude": 77.5156, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 9, "distance_km": 1.6, "speed_kmh": 20, "picked_up": false },
+    { "latitude": 28.4782, "longitude": 77.5150, "stage": "HEADING_TO_PHARMACY", "eta_minutes": 8, "distance_km": 1.5, "speed_kmh": 14, "picked_up": false },
+    { "latitude": 28.4775, "longitude": 77.5145, "stage": "ARRIVED_AT_PHARMACY", "eta_minutes": 8, "distance_km": 1.5, "speed_kmh": 0, "picked_up": false },
+    { "latitude": 28.4775, "longitude": 77.5145, "stage": "MEDICINES_PICKED_UP", "eta_minutes": 7, "distance_km": 1.4, "speed_kmh": 20, "picked_up": true },
+    { "latitude": 28.4770, "longitude": 77.5140, "stage": "ON_THE_WAY", "eta_minutes": 7, "distance_km": 1.3, "speed_kmh": 32, "picked_up": true },
+    { "latitude": 28.4765, "longitude": 77.5133, "stage": "ON_THE_WAY", "eta_minutes": 6, "distance_km": 1.2, "speed_kmh": 36, "picked_up": true },
+    { "latitude": 28.4760, "longitude": 77.5126, "stage": "ON_THE_WAY", "eta_minutes": 5, "distance_km": 1.1, "speed_kmh": 30, "picked_up": true },
+    { "latitude": 28.4755, "longitude": 77.5120, "stage": "ON_THE_WAY", "eta_minutes": 5, "distance_km": 0.9, "speed_kmh": 28, "picked_up": true },
+    { "latitude": 28.4750, "longitude": 77.5114, "stage": "ON_THE_WAY", "eta_minutes": 4, "distance_km": 0.8, "speed_kmh": 31, "picked_up": true },
+    { "latitude": 28.4746, "longitude": 77.5110, "stage": "ON_THE_WAY", "eta_minutes": 3, "distance_km": 0.6, "speed_kmh": 27, "picked_up": true },
+    { "latitude": 28.4742, "longitude": 77.5106, "stage": "NEARBY", "eta_minutes": 2, "distance_km": 0.4, "speed_kmh": 22, "picked_up": true },
+    { "latitude": 28.4739, "longitude": 77.5102, "stage": "NEARBY", "eta_minutes": 1, "distance_km": 0.2, "speed_kmh": 16, "picked_up": true },
+    { "latitude": 28.4737, "longitude": 77.5100, "stage": "NEARBY", "eta_minutes": 1, "distance_km": 0.1, "speed_kmh": 8, "picked_up": true },
+    { "latitude": 28.4735, "longitude": 77.5098, "stage": "DELIVERED", "eta_minutes": 0, "distance_km": 0.0, "speed_kmh": 0, "picked_up": true }
+  ]
+}

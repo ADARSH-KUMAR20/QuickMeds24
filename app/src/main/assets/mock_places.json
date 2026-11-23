@@ -1,0 +1,85 @@
+{
+  "status": "OK",
+  "predictions": [
+    {
+      "place_id": "ChIJ_alpha_1_gnoida",
+      "description": "Sector Alpha 1, Greater Noida, Uttar Pradesh, India",
+      "structured_formatting": {
+        "main_text": "Sector Alpha 1",
+        "secondary_text": "Greater Noida, Uttar Pradesh, India"
+      },
+      "geometry": {
+        "location": {
+          "lat": 28.4735,
+          "lng": 77.5098
+        }
+      },
+      "pincode": "201310",
+      "landmark": "Commercial Belt & Metro Station"
+    },
+    {
+      "place_id": "ChIJ_alpha_2_gnoida",
+      "description": "Sector Alpha 2, Greater Noida, Uttar Pradesh, India",
+      "structured_formatting": {
+        "main_text": "Sector Alpha 2",
+        "secondary_text": "Greater Noida, Uttar Pradesh, India"
+      },
+      "geometry": {
+        "location": {
+          "lat": 28.477,
+          "lng": 77.514
+        }
+      },
+      "pincode": "201310",
+      "landmark": "Main Sector Market & Pocket F"
+    },
+    {
+      "place_id": "ChIJ_beta_1_gnoida",
+      "description": "Sector Beta 1, Greater Noida, Uttar Pradesh, India",
+      "structured_formatting": {
+        "main_text": "Sector Beta 1",
+        "secondary_text": "Greater Noida, Uttar Pradesh, India"
+      },
+      "geometry": {
+        "location": {
+          "lat": 28.482,
+          "lng": 77.502
+        }
+      },
+      "pincode": "201308",
+      "landmark": "Beta Plaza Commercial Complex"
+    },
+    {
+      "place_id": "ChIJ_pari_chowk_gnoida",
+      "description": "Pari Chowk, Greater Noida, Uttar Pradesh, India",
+      "structured_formatting": {
+        "main_text": "Pari Chowk",
+        "secondary_text": "Greater Noida, Uttar Pradesh, India"
+      },
+      "geometry": {
+        "location": {
+          "lat": 28.468,
+          "lng": 77.515
+        }
+      },
+      "pincode": "201310",
+      "landmark": "Ansal Plaza & Metro Station"
+    },
+    {
+      "place_id": "ChIJ_delta_1_gnoida",
+      "description": "Sector Delta 1, Greater Noida, Uttar Pradesh, India",
+      "structured_formatting": {
+        "main_text": "Sector Delta 1",
+        "secondary_text": "Greater Noida, Uttar Pradesh, India"
+      },
+      "geometry": {
+        "location": {
+          "lat": 28.49,
+          "lng": 77.513
+        }
+      },
+      "pincode": "201308",
+      "landmark": "Near Delta 1 Metro Station"
+    }
+  ]
+}
